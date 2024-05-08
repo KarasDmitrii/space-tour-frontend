@@ -1,0 +1,13 @@
+@import "./../../styles/abstracts/_variables.scss";
+
+.app {
+  &__background {
+    background: url("./../../assets/background.png") center top, linear-gradient(to bottom, #211a20, #141a21) center bottom;
+    background-repeat: no-repeat, repeat;
+
+    @media (min-width: $screen-lg) {
+      height: 100vh;
+      background-size: cover;
+    }
+  }
+}
