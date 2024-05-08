@@ -5,7 +5,7 @@ import App from './components/app/App';
 import reportWebVitals from './reportWebVitals';
 
 
-export const API_URL = "http://127.0.0.1:8000/api/"
+export const API_URL = "https://dmitrykaras.pythonanywhere.com/api/"
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
