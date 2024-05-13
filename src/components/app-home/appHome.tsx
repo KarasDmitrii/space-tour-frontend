@@ -1,10 +1,8 @@
-import React from "react";
 import "./appHome.scss";
 import line from "./../../assets/line.png";
 import Andvantages from "../advantage-item/appAdvantages";
 
 function AppHome() {
-
 
   return (
     <div className="container d-grid d-lg-flex justify-content-center justify-content-lg-between">

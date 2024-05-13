@@ -4,16 +4,12 @@
   &__list {
     grid-template-columns: 1fr;
     grid-column-gap: 10px;
-    grid-row-gap: 30px;
+    grid-row-gap: 10px;
     height: fit-content;
     width: 100%;
 
     @media (min-width: $screen-md) { grid-template-columns: 1fr 1fr; }
-    @media (min-width: $screen-lg) {
-      width: fit-content;
-      grid-column-gap: 10px;
-      grid-row-gap: 10px;
-    }
+    @media (min-width: $screen-lg) { width: fit-content; }
 
     &:hover {
       --container-active: 1;
@@ -24,10 +20,14 @@
     height: 100%;
     width: 100%;
     position: relative;
+    padding-top: 16px;
+    padding-bottom: 16px;
 
-    @media (min-width: $screen-md) {
+    @media (min-width: $screen-lg) {
       height: 187px;
       width: 187px;
+      padding-top: unset;
+      padding-bottom: unset;
     }
 
     &:hover {

@@ -13,7 +13,7 @@
     margin-top: 117px;
     text-transform: uppercase;
     background-image: linear-gradient(-90.0deg, #ff3f04 0%, #ffffff 90%, #ffffff 100%);
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
   }
 
@@ -38,7 +38,6 @@
     justify-content: center;
 
     @media (min-width: $screen-lg) {
-      width: 40%;
       max-width: 580px;
       margin-top: unset;
       justify-content: unset;

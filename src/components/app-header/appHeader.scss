@@ -43,4 +43,35 @@
     @media (min-width: $screen-md) { width: 150px; }
     @media (min-width: $screen-lg) { width: 274px; }
   }
+
+  &__icon {
+    width: 32px;
+    height: 32px;
+    fill: white;
+    margin-right: 16px;
+  }
+
+  &__modal {
+    top: 0;
+    left: 0;
+    background-color: #211a20a3;
+    padding-top: 32px;
+  }
+
+  &__modal-items {
+    height: fit-content;
+    grid-row-gap: 30px;
+    margin-top: 60px;
+    @media (min-width: $screen-md) { margin-left: 32px; }
+  }
+
+  &__modal-item {
+    font-size: 40px;
+    width: fit-content;
+    transition: color, 300ms;
+    &:hover {
+      color: rgb(255 116 73);
+    }
+  }
+
 }

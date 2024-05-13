@@ -36,7 +36,7 @@ function Andvantages() {
             <div key={index} className="advantage__container justify-content-center align-items-center d-grid">
               <div className="advantage__wrapper text-center">
                 <p className="advantage__heading body">{item.heading}</p>
-                <div className="d-flex align-items-end">
+                <div className="d-flex align-items-end justify-content-center">
                   <p className="advantage__content headline">{item.content}</p>
                   <p className="advantage__extra-content headline">{item.extra_content}</p>
                 </div>
